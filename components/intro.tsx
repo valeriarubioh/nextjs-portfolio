@@ -32,7 +32,7 @@ export default function Intro() {
           />
         </motion.div>
       </div>
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -42,7 +42,7 @@ export default function Intro() {
         learning new technologies and{" "}
         <span className="font-bold">building apps</span>. My focus now is{" "}
         <span className="italic">ReactJS and Java</span>.
-      </motion.p>
+      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-5 px-4 text-lg font-medium"
