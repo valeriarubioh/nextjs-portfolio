@@ -1,3 +1,5 @@
+import corpcommentImg from "@/public/corpcomment.png";
+import rmtdevImg from "@/public/rmtdev.png";
 
 export const links = [
   {
@@ -26,6 +28,22 @@ export const links = [
   },
 ] as const;
 
+export const projectsData = [
+  {
+    title: "Acadevmia",
+    description:
+      "I led a team of four in developing a Stack Overflow-inspired Q&A social network. This was the final project for the coding bootcamp",
+    tags: ["JavaScript", "SpringBoot", "MongoDB"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "NotesApp",
+    description:
+      "A full-featured note-taking application. Users can filter notes by title, category, and completion status.",
+    tags: ["React", "SpringBoot", "MySQL", "Docker"],
+    imageUrl: rmtdevImg,
+  },
+] as const;
 
 export const skillsData = [
   "Java",
