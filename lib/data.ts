@@ -1,3 +1,7 @@
+import React from "react";
+import { CgWorkAlt } from "react-icons/cg";
+import { FaReact } from "react-icons/fa";
+import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 
@@ -60,4 +64,31 @@ export const skillsData = [
   "MongoDB",
   "Postman",
   "Python",
+] as const;
+
+export const experiencesData = [
+  {
+    title: "A role title",
+    location: "Cali, Valle",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra, nunc eget sodales porttitor, nunc velit pharetra nisi, varius tincidunt augue tortor pretium metus. Integer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "A year",
+  },
+  {
+    title: "A role title",
+    location: "City, State",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra, nunc eget sodales porttitor, nunc velit pharetra nisi, varius tincidunt augue tortor pretium metus. Integer.",
+    icon: React.createElement(CgWorkAlt),
+    date: "A year",
+  },
+  {
+    title: "A role title",
+    location: "City, State",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra, nunc eget sodales porttitor, nunc velit pharetra nisi, varius tincidunt augue tortor pretium metus. Integer.",
+    icon: React.createElement(FaReact),
+    date: "A year",
+  },
 ] as const;
