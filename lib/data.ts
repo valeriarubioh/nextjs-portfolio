@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import acadevmiaImg from "@/public/acadevmia.png"
+import notesappImg from "@/public/notesapp.jpeg"
 
 export const links = [
   {
@@ -38,14 +38,14 @@ export const projectsData = [
     description:
       "I led a team of four in developing a Stack Overflow-inspired Q&A social network. This was the final project for the coding bootcamp",
     tags: ["JavaScript", "SpringBoot", "MongoDB"],
-    imageUrl: corpcommentImg,
+    imageUrl: acadevmiaImg,
   },
   {
     title: "NotesApp",
     description:
       "A full-featured note-taking application. Users can filter notes by title, category, and completion status.",
     tags: ["React", "SpringBoot", "MySQL", "Docker"],
-    imageUrl: rmtdevImg,
+    imageUrl: notesappImg,
   },
 ] as const;
 
